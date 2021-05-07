@@ -1,0 +1,36 @@
+{
+    "name": "encore/lumen-swoole-2",
+    "type": "library",
+    "description": "lumen-swoole can help you work with lumen and swoole.",
+    "keywords": ["lumen", "swoole", "performance", "framework"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iamshanto",
+            "email": "iamshanto@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "laravel/lumen-framework": "5.5.*|8.0.*",
+        "ext-swoole" : ">=1.8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "laravel/lumen": "5.5.*|8.0.*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Encore\\LumenSwoole\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "bin": [
+        "bin/lumen-swoole"
+    ]
+}
