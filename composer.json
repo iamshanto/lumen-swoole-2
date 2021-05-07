@@ -1,5 +1,5 @@
 {
-    "name": "encore/lumen-swoole-2",
+    "name": "iamshanto/lumen-swoole-2",
     "type": "library",
     "description": "lumen-swoole can help you work with lumen and swoole.",
     "keywords": ["lumen", "swoole", "performance", "framework"],
